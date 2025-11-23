@@ -15,11 +15,12 @@ public interface ProdutoRepositorio
     // cujo tipo de ID é Long"
     
     // JpaRepository já fornece os métodos CRUD prontos, como:
-    // save()      → para salvar ou atualizar
-    // findAll()   → para listar todos
-    // findById()  → para buscar por ID
-    // deleteById()→ para deletar por ID
+    // save()       para salvar ou atualizar
+    // findAll()    para listar todos
+    // findById()   para buscar por ID
+    // deleteById() para deletar por ID
 
     // Você pode adicionar métodos personalizados, se precisar, usando a convenção de nomes do Spring Data JPA
     // Por exemplo: List<ModeloProduto> findByNome(String nome);
 }
+
